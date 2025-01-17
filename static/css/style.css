@@ -171,7 +171,7 @@ body::before {
 /* Add dark mode styles */
 body.dark-mode {
   background-color: #1a1a1a;
-  color: #fff;
+  color: #402323;
 }
 
 body.dark-mode .header {
@@ -184,6 +184,7 @@ body.dark-mode .lang-selector span,
 body.dark-mode .theme-toggle {
   color: #fff;
 }
+
 
 body.dark-mode .subnav {
   background: #2d2d2d;
@@ -276,6 +277,38 @@ body.dark-mode .subnav a:hover {
   font-weight: bold;
   animation: fade-in-out 1s infinite;
 }
+
+body.dark-mode .animated-word-1{
+color: #1b6f7c;
+font-weight: bold;
+
+}
+
+body.dark-mode .animated-word-2{
+  color: #1b6f7c;
+  font-weight: bold;
+  }
+
+  body.dark-mode .title{
+    color: #fff;
+  }
+
+  body.dark-mode .subtitle{
+    color: #fff;
+  }
+
+  body.dark-mode .news-excerpt{
+    color: #fff;
+  }
+
+  body.dark-mode .news-title{
+    color: #fff;
+  }
+
+  body.dark-mode #div{
+    color: #fff;
+    background-color: #2d2d2d;
+  }
 
 @keyframes fade-in-out {
   0%,
@@ -374,6 +407,18 @@ body.dark-mode .subnav a:hover {
   border-radius: 2px;
 }
 
+body.dark-mode .trending-section{
+  background-color: #2d2d2d;
+}
+
+body.dark-mode .section-title{
+  color: #fff;
+}
+
+body.dark-mode .trending-title{
+  color: #fff;
+}
+
 .trending-list {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -409,12 +454,18 @@ body.dark-mode .subnav a:hover {
   color: #666;
 }
 
+body.dark-mode .streamer-name{
+  color: #fff;
+}
 .footer {
   background: white;
   padding: 4rem 0;
   margin-top: 4rem;
 }
 
+body.dark-mode .footer{
+  background: #2d2d2d;
+}
 .footer-content {
   max-width: 1200px;
   margin: 0 auto;
@@ -427,6 +478,10 @@ body.dark-mode .subnav a:hover {
 .footer-section h3 {
   color: #333;
   margin-bottom: 1.5rem;
+}
+
+body.dark-mode .footer-section h3{
+  color: #fff;
 }
 
 .footer-links {
